@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launch the browser success]]>
+    </line>
+    <line>
+      <![CDATA[maximize browser success]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the application via URL Sucess]]>
+    </line>
+    <line>
+      <![CDATA[Close the Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-09T09:25:33 IST" name="Functionality" finished-at="2024-11-09T09:26:21 IST" duration-ms="47944">
+    <groups>
+    </groups>
+    <test started-at="2024-11-09T09:25:33 IST" name="ChromeTest" finished-at="2024-11-09T09:26:21 IST" duration-ms="47944">
+      <class name="com.doms.WelcomeTest.VerifyWelcomePageTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:25:32 IST" name="suiteSetup" finished-at="2024-11-09T09:25:33 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:25:33 IST" name="browserSetup" finished-at="2024-11-09T09:26:00 IST" duration-ms="27372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E:\QS-Selenium\com.doms\src\main\resources\Softwares\webpage.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch the browser success]]>
+            </line>
+            <line>
+              <![CDATA[maximize browser success]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the application via URL Sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyWelcomepageWithValidInput()[pri:1, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:26:00 IST" name="verifyWelcomepageWithValidInput" finished-at="2024-11-09T09:26:11 IST" duration-ms="11007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithValidInput -->
+        <test-method signature="verifyWelcomepageWithInvalidInput()[pri:2, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:26:11 IST" name="verifyWelcomepageWithInvalidInput" finished-at="2024-11-09T09:26:15 IST" depends-on-methods="com.doms.WelcomeTest.VerifyWelcomePageTest.verifyWelcomepageWithValidInput" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithInvalidInput -->
+        <test-method signature="verifyWelcomepageWithInvalidInput()[pri:2, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:26:15 IST" name="verifyWelcomepageWithInvalidInput" finished-at="2024-11-09T09:26:20 IST" depends-on-methods="com.doms.WelcomeTest.VerifyWelcomePageTest.verifyWelcomepageWithValidInput" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithInvalidInput -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:26:20 IST" name="terminateBrowser" finished-at="2024-11-09T09:26:21 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:com.doms.WelcomeTest.VerifyWelcomePageTest@1cf6d1be]" started-at="2024-11-09T09:26:21 IST" name="suiteTerminateSetup" finished-at="2024-11-09T09:26:21 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- com.doms.WelcomeTest.VerifyWelcomePageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Functionality -->
+</testng-results>
